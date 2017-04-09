@@ -1,0 +1,5 @@
+// sprite img
+@import "sprite.scss";
+.icon {
+  @extend %sprite-image;
+}

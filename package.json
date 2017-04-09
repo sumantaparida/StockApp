@@ -1,0 +1,26 @@
+{
+  "name": "stockapp",
+  "version": "1.0.0",
+  "description": "Angular stock application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bower-requirejs": "^1.2.0",
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-angular-builder": "^1.0.0-beta3",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-open": "^0.2.3",
+    "grunt-sass": "^1.2.0",
+    "node-sass": "^3.8.0"
+  }
+}
