@@ -1,5 +1,16 @@
-<div>
-  <ul>
-    <li> {{name}} </li>
-  </ul>
-</div>
+<ul>
+  <li>
+    <p>
+      <span>Ticker</span>
+      <span>New Price</span>
+      <span>Old Price</span>
+    </p>
+  </li>
+  <li ng-repeat="list in obj.name track by $index">
+    <p>
+      <span>{{ list.name }}</span>
+      <span>{{ list.currValue | number : 3}}</span>
+      <span>{{ list.prevValue | number : 3}}</span>
+    </p>
+  </li>
+</ul>

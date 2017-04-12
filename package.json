@@ -22,5 +22,8 @@
     "grunt-open": "^0.2.3",
     "grunt-sass": "^1.2.0",
     "node-sass": "^3.8.0"
+  },
+  "devDependencies": {
+    "angular-local-storage": "^0.5.2"
   }
 }
